@@ -1,0 +1,219 @@
+:root{
+    background: url("./img/purple-bricks.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    --lego-yellow: rgb(255, 196, 0, 0.9);
+    --lego-red: red;
+}
+
+.header{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    width: 100vw;
+    height: 100px;
+    top: 0;
+    left: 0;
+    margin: auto;
+    background-color: var(--lego-yellow);
+}
+
+.lego-logo{
+    display: flex;
+    position: relative;
+    height: 90%;
+    width: auto;
+    margin: 5px;
+}
+
+.bag-logo{
+    display: flex;
+    position: relative;
+    height: 40%;
+    width: auto;
+    margin: auto;
+    margin-right: 50px;
+}
+
+.bag-logo:hover{
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.20);
+            transform: scale(1.20);
+}
+
+.shop-now-container{
+    display: flex;
+    position: absolute;
+    width: 60vw;
+    height: 25vw;
+    left: 20vw;
+    top: 40vh;
+    margin: auto;
+    background-color: var(--lego-yellow);
+}
+
+.shop-now-text{
+    display: flex;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    color: black;
+    font-size: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 4px black; /* width and color */
+    user-select: none;
+}
+
+.shop-now-text:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+}
+
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.categories-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+    width: 20%;
+    background-color: white;
+}
+
+.category-header{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2vw;
+    justify-content: center;
+    user-select: none;
+}
+
+.category-divider{
+    display: flex;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+
+.category-card{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    user-select: none;
+}
+
+.category-card:hover{
+    transition-duration: 0.3s;
+    -webkit-transform: scale(1.10);
+            transform: scale(1.10);
+}
+
+
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    position: relative;
+    overflow-y: scroll;
+    height: 100%;
+    width: 80%;
+}
+
+.item-card{
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+    align-content: flex-start;
+    height: 300px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.item-img{
+    display: flex;
+    position: relative;
+    height: 180px;
+    width: 180px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.item-price{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.add-to-bag{
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 180px;
+    margin-top: 5px;
+    margin: auto;
+    background-color: var(--lego-yellow);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: small;
+    justify-content: center;
+    user-select: none;
+}
+
+.add-to-bag:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+}
+
+.item-card:hover{
+    transition-duration: 0.5s;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+.text-center{
+    margin: auto;
+}
