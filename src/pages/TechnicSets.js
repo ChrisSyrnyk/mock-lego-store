@@ -1,18 +1,16 @@
-import styles from './styles.css';
+import styles from './../styles.css';
 import { Link } from "react-router-dom";
-import starwars from './products/starwars';
-import architecture from './products/architecture';
-import ProductCards from './components/ProductCards';
-import technic from './products/technic';
+import technic from './../products/technic';
+import ProductCards from './../components/ProductCards';
 
 
-const AllSets = () => {
+const TechnicSets = () => {
 
     return (
         <>
             <div className = "header">
-                <img src = {require('./img/lego.png')} className = "lego-logo"/>
-                <img src = {require('./img/bag.png')} className = "bag-logo"/>
+                <img src = {require('./../img/lego.png')} className = "lego-logo"/>
+                <img src = {require('./../img/bag.png')} className = "bag-logo"/>
             </div>
             <div className="main-container">
                 <div className ="categories-container">
@@ -20,7 +18,7 @@ const AllSets = () => {
                         Categories
                     </div>
                     <div className = "category-divider"/>
-                    <Link className = "category-card onPage" to = "/AllSets">
+                    <Link className = "category-card" to = "/AllSets">
                         AllSets 
                     </Link>
                     <Link className = "category-card" to = "/ArchitectureSets">
@@ -29,13 +27,11 @@ const AllSets = () => {
                     <Link className = "category-card" to = "/StarWarsSets">
                         Star Wars™ 
                     </Link>
-                    <Link className = "category-card" to = "/TechnicSets">
-                        Technic 
+                    <Link className = "category-card onPage" to = "/TechnicSets">
+                        Technic™ 
                     </Link>
                 </div>
                 <div className = "items-container">
-                    <ProductCards theme = {starwars}/>
-                    <ProductCards theme = {architecture}/>
                     <ProductCards theme = {technic}/>
                 </div>
             </div>
@@ -44,4 +40,4 @@ const AllSets = () => {
     
 };
 
-export default AllSets
+export default TechnicSets

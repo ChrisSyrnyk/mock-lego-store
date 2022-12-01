@@ -47,9 +47,9 @@
     display: flex;
     position: absolute;
     width: 60vw;
-    height: 25vw;
+    height: 40vh;
     left: 20vw;
-    top: 40vh;
+    top: 37.5vh;
     margin: auto;
     background-color: var(--lego-yellow);
 }

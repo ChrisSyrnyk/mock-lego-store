@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <div className = "header">
-        <div className = "logo"/>
+      <img src = {require('./img/lego.png')} className = "lego-logo"/>
       </div>
       <div className = "shop-now-container">
         <Link className = "shop-now-text" to = "/AllSets">
