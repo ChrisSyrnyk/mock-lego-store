@@ -8,7 +8,7 @@ class ProductCards extends Component{
     render(){
         return(
             <>
-                {this.props.starwars.map((product)=>{
+                {this.props.theme.map((product)=>{
                     return(
                         <div key = {product.id} className = "item-card">
                             <img src = {product.image} className = "item-img"/>

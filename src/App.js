@@ -8,7 +8,7 @@ const App = () => {
         <div className = "logo"/>
       </div>
       <div className = "shop-now-container">
-        <Link className = "shop-now-text" to = "/profile">
+        <Link className = "shop-now-text" to = "/AllSets">
           Shop Now
         </Link>
       </div>

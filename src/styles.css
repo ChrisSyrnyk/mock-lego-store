@@ -127,6 +127,7 @@
     margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7vw;
+    color: black;
     user-select: none;
 }
 
@@ -135,8 +136,6 @@
     -webkit-transform: scale(1.10);
             transform: scale(1.10);
 }
-
-
 
 .items-container{
     display: flex;
@@ -227,4 +226,22 @@
 
 .text-center{
     margin: auto;
+}
+
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+.onPage{
+    color: var(--lego-red);
+    font-weight: bold;
 }

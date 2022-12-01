@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
-import Profile from "./Profile";
+import AllSets from "./AllSets";
+import StarWarsSets from "./pages/StarWarsSets"
+import ArchitectureSets from "./pages/ArchitectureSets";
 
 
 const RouteSwitch = () => {
@@ -8,7 +10,9 @@ const RouteSwitch = () => {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/AllSets" element={<AllSets />} />
+        <Route path="/StarWarsSets" element={<StarWarsSets />} />
+        <Route path="/ArchitectureSets" element={<ArchitectureSets />} /> 
       </Routes>
     </BrowserRouter>
   );
