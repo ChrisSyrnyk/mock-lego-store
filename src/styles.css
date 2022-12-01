@@ -145,8 +145,9 @@
     align-content: flex-start;
     position: relative;
     overflow-y: scroll;
-    height: 100%;
+    height: 98%;
     width: 80%;
+    margin-bottom: 2%;
 }
 
 .item-card{
@@ -155,7 +156,7 @@
     flex-direction: column;
     position: relative;
     align-content: flex-start;
-    height: 300px;
+    height: 320px;
     width: 200px;
     background-color: white;
     margin-top: 20px;
@@ -171,7 +172,16 @@
     width: 180px;
     margin: auto;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+.item-info{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 5px;
+    height: auto;
+    width: auto;
 }
 
 .item-price{
@@ -194,6 +204,7 @@
     width: 180px;
     margin-top: 5px;
     margin: auto;
+    padding: 5px;
     background-color: var(--lego-yellow);
     color: black;
     font-family: Arial, Helvetica, sans-serif;
