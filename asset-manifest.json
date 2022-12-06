@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mock-lego-store/static/css/main.bad3f97d.css",
+    "main.css": "/mock-lego-store/static/css/main.a47d6d95.css",
     "main.js": "/mock-lego-store/static/js/main.62303c5b.js",
     "static/media/purple-bricks.jpeg": "/mock-lego-store/static/media/purple-bricks.a8e6fc2aba7db0456336.jpeg",
     "static/media/EiffelTower.jpeg": "/mock-lego-store/static/media/EiffelTower.527e72be61243fab381c.jpeg",
@@ -45,11 +45,11 @@
     "static/media/plus-symbol.png": "/mock-lego-store/static/media/plus-symbol.009d2f81f677c22651e6.png",
     "static/media/minus-symbol.png": "/mock-lego-store/static/media/minus-symbol.de353dba32dc1fe036ee.png",
     "index.html": "/mock-lego-store/index.html",
-    "main.bad3f97d.css.map": "/mock-lego-store/static/css/main.bad3f97d.css.map",
+    "main.a47d6d95.css.map": "/mock-lego-store/static/css/main.a47d6d95.css.map",
     "main.62303c5b.js.map": "/mock-lego-store/static/js/main.62303c5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.bad3f97d.css",
+    "static/css/main.a47d6d95.css",
     "static/js/main.62303c5b.js"
   ]
 }
