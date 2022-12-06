@@ -2,16 +2,17 @@ import styles from './../styles.css';
 import { Link } from "react-router-dom";
 import architecture from './../products/architecture';
 import ProductCards from './../components/ProductCards';
-
+import Header from '../components/Header'
+import React, {useState} from 'react';
+import PriceFilter from '../components/PriceFilter'
 
 const ArchitectureSets = () => {
 
+    const [floor, setFloor] = useState(0); //beyond reach of least expensive product
+    const [ceiling, setCeiling] = useState(10000); //beyond reach of most expensive product
+
     return (
         <>
-            <div className = "header">
-                <img src = {require('./../img/lego.png')} className = "lego-logo"/>
-                <img src = {require('./../img/bag.png')} className = "bag-logo"/>
-            </div>
             <div className="main-container">
                 <div className ="categories-container">
                     <div className = "category-header">
@@ -30,11 +31,14 @@ const ArchitectureSets = () => {
                     <Link className = "category-card" to = "/TechnicSets">
                         Technic™ 
                     </Link>
+                    <PriceFilter setFloor = {setFloor} setCeiling = {setCeiling} floor = {floor} ceiling = {ceiling}/>
                 </div>
                 <div className = "items-container">
-                    <ProductCards theme = {architecture}/>
+                    <ProductCards theme = {architecture} floor = {floor} ceiling = {ceiling}/>
                 </div>
             </div>
+            {/*Leave header at bottom so bag shows up ontop of main*/}
+            <Header/>
         </>
       );
     

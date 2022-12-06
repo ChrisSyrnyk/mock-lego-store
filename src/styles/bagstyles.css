@@ -1,0 +1,169 @@
+/*bag styles*/
+
+.bag-container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 40vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    left: 100vw;
+    background-color: white;
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    -webkit-animation: slide 1s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slide 1s forwards;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 60vw; }
+}
+
+@keyframes slide {
+    100% { left: 60vw; }
+}
+
+.faded-background{
+    display: flex;
+    position: absolute;
+    width: 60vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    left: 100vw;
+    background-color: rgba(255, 255, 255, 0.9);
+    -webkit-animation: slidefade 1s forwards;
+    -webkit-animation-delay: 0s;
+    animation: slidefade 1s forwards;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes slidefade {
+    100% { left: 0vw; }
+}
+
+@keyframes slidefade {
+    100% { left: 0vw; }
+}
+
+.bag-card{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.bag-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: bold;
+}
+
+.bag-item-image{
+    display: flex;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+}
+
+.bag-item-info-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.bag-item-info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.bag-quantity{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    height: auto;
+    width: 10vw;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.selection-image{
+    display: flex;
+    position: relative;
+    height: 3vw;
+    width: 3vw;
+    margin: 0;
+}
+
+.selection-image:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+}
+
+.selection-font{
+    display: flex;
+    position: relative;
+    height: auto;
+    width: auto;
+    margin: auto;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.checkout-button{
+    display: flex;
+    position: relative;
+    width: 30vw;
+    height: 4vw;
+    margin: auto;
+    background-color: rgb(255, 196, 0, 0.9);
+    user-select: none;
+}
+
+.checkout-button:active{
+    -webkit-transform: scale(0.97);
+            transform: scale(0.97);
+}
+
+.center{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.medium-font{
+    font-weight: 700;
+    font-size: medium;
+}
+
+.bag-counter{
+    display: flex;
+    position: absolute;
+    top: -53px;
+    right: 65px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

@@ -68,9 +68,9 @@
     user-select: none;
 }
 
-.shop-now-text:active{
-    -webkit-transform: scale(0.97);
-            transform: scale(0.97);
+.shop-now-text:hover{
+    -webkit-transform: scale(1.10);
+            transform:  scale(1.10);
 }
 
 
