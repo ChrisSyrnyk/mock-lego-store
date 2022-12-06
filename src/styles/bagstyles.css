@@ -4,7 +4,8 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    width: 40vw;
+    overflow-y: scroll;
+    width: 50vw;
     height: calc(100vh - 100px);
     top: 100px;
     left: 100vw;
@@ -18,17 +19,17 @@
 }
 
 @-webkit-keyframes slide {
-    100% { left: 60vw; }
+    100% { left: 50vw; }
 }
 
 @keyframes slide {
-    100% { left: 60vw; }
+    100% { left: 50vw; }
 }
 
 .faded-background{
     display: flex;
     position: absolute;
-    width: 60vw;
+    width: 50vw;
     height: calc(100vh - 100px);
     top: 100px;
     left: 100vw;
@@ -55,6 +56,7 @@
     height: auto;
     margin: auto;
     margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     margin-bottom: 0px;
 }
