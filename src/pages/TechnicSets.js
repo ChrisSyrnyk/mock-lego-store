@@ -25,6 +25,9 @@ const TechnicSets = () => {
                     <Link className = "category-card" to = "/ArchitectureSets">
                         Architecture 
                     </Link>
+                    <Link className = "category-card" to = "/HarryPotterSets">
+                        Harry Potter™ 
+                    </Link>
                     <Link className = "category-card" to = "/StarWarsSets">
                         Star Wars™ 
                     </Link>

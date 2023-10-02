@@ -25,6 +25,9 @@ const ArchitectureSets = () => {
                     <Link className = "category-card onPage" to = "/ArchitectureSets">
                         Architecture 
                     </Link>
+                    <Link className = "category-card" to = "/HarryPotterSets">
+                        Harry Potter™ 
+                    </Link>
                     <Link className = "category-card" to = "/StarWarsSets">
                         Star Wars™ 
                     </Link>

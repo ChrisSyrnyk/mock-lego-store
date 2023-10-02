@@ -4,6 +4,7 @@ import AllSets from "./pages/AllSets";
 import StarWarsSets from "./pages/StarWarsSets"
 import ArchitectureSets from "./pages/ArchitectureSets";
 import TechnicSets from "./pages/TechnicSets";
+import HarryPotterSets from "./pages/HarryPotterSets";
 
 
 const RouteSwitch = () => {
@@ -15,6 +16,7 @@ const RouteSwitch = () => {
         <Route path="/StarWarsSets" element={<StarWarsSets />} />
         <Route path="/ArchitectureSets" element={<ArchitectureSets />} /> 
         <Route path="/TechnicSets" element={<TechnicSets />} />
+        <Route path="/HarryPotterSets" element={<HarryPotterSets/>} />
       </Routes>
     </BrowserRouter>
   );
