@@ -243,5 +243,5 @@ a:active { text-decoration: none; }
 
 .onPage{
     color: var(--lego-red);
-    font-weight: bold; /*test*/
+    font-weight: bold; 
 }
