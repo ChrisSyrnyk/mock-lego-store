@@ -47,7 +47,7 @@ const AllSets = () => {
                         Star Wars™ 
                     </Link>
                     <Link className = "category-card" to = "/TechnicSets">
-                        Technic 
+                        Technic™ 
                     </Link>
                     <PriceFilter setFloor = {setFloor} setCeiling = {setCeiling} floor = {floor} ceiling = {ceiling}/>
                 </div>
