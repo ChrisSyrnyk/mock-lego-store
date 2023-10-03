@@ -15,6 +15,11 @@ function addToList(item){
         itemsList.push(item);
         this.calculateSubtotal();
     }
+    if(alreadyInList == false){
+        return true;
+    } else {
+        return false;
+    }
 }
 
 function removeFromList(position){
@@ -32,7 +37,16 @@ function calculateSubtotal(){
     itemsList.map((item)=>{
         subTotal += (item.price * item.quantity)
     })
-    console.log(subTotal);
 }
 
-export default {itemsList, addToList, removeFromList, updateQuantity, calculateSubtotal}
+function getNumItems(){
+    let i = 0;
+    let sum = 0;
+    while (i<itemsList.length){
+        sum += itemsList[i].quantity;
+        i++
+    }
+    return sum;
+}
+
+export default {itemsList, addToList, removeFromList, updateQuantity, calculateSubtotal, getNumItems}

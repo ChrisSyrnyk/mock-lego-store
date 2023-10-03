@@ -30,11 +30,26 @@
 
 .bag-logo{
     display: flex;
-    position: relative;
+    position: absolute;
+    right: 46px;
+    top: 30px;
     height: 40%;
     width: auto;
     margin: auto;
-    margin-right: 50px;
+    z-index: 10;
+}
+
+.bag-count{
+    display: flex;
+    position: absolute;
+    right: 46px;
+    top: 36px;
+    height: 40%;
+    width: 38px;
+    margin: auto;
+    text-align: center;
+    user-select: none;
+    z-index: 0;
 }
 
 .bag-logo:hover{

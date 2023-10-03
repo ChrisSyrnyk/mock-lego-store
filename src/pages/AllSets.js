@@ -14,17 +14,14 @@ import harryPotter from '../products/harryPotter';
 
 const AllSets = () => {
 
-    const [showBag, setShowBag] = useState(false);
     const [floor, setFloor] = useState(0); //beyond reach of least expensive product
     const [ceiling, setCeiling] = useState(10000); //beyond reach of most expensive product
 
-    function toggleShowBag(){
-        if (showBag == true){
-            setShowBag(false)
-        } else {
-            setShowBag(true)
-        }
-    }
+    
+    
+
+    //test bag functionality
+    const [bagCount, setBagCount] = useState(BagContents.getNumItems);
 
     return (
         <>
@@ -52,14 +49,14 @@ const AllSets = () => {
                     <PriceFilter setFloor = {setFloor} setCeiling = {setCeiling} floor = {floor} ceiling = {ceiling}/>
                 </div>
                 <div className = "items-container">
-                    <ProductCards theme = {starwars} floor = {floor} ceiling = {ceiling}/>
-                    <ProductCards theme = {architecture} floor = {floor} ceiling = {ceiling}/>
-                    <ProductCards theme = {technic} floor = {floor} ceiling = {ceiling}/>
-                    <ProductCards theme = {harryPotter} floor = {floor} ceiling = {ceiling}/>
+                    <ProductCards theme = {starwars} floor = {floor} ceiling = {ceiling} bagCount = {bagCount} setBagCount = {setBagCount}/>
+                    <ProductCards theme = {architecture} floor = {floor} ceiling = {ceiling} bagCount = {bagCount} setBagCount = {setBagCount}/>
+                    <ProductCards theme = {technic} floor = {floor} ceiling = {ceiling} bagCount = {bagCount} setBagCount = {setBagCount}/>
+                    <ProductCards theme = {harryPotter} floor = {floor} ceiling = {ceiling} bagCount = {bagCount} setBagCount = {setBagCount}/>
                 </div>
             </div>
             {/*Leave header at bottom so bag shows up ontop of main*/}
-            <Header/>
+            <Header bagCount = {bagCount} setBagCount = {setBagCount}/>
             
             
         </>

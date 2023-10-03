@@ -19,11 +19,12 @@ class Bag extends Component{
                         Your <br/> Shopping Bag
                     </div>
 
-                    <BagCard BagList = {this.props.BagContents.itemsList}/>
+                    <BagCard BagList = {this.props.BagContents.itemsList} bagCount = {this.props.bagCount} setBagCount = {this.props.setBagCount}/>
 
                     <div className = "bag-card">
                         <div className = "checkout-button">
-                            <div className = "center bag-title">
+                            <div className = "center bag-title"
+                            onClick={()=> console.log(this.props.BagContents.itemsList)}>
                                 Checkout
                             </div>
                         </div>

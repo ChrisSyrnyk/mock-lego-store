@@ -6,7 +6,11 @@ class ProductCards extends Component{
         super(props)
     }
     
-
+    addtoBag(product){
+        if(BagContents.addToList(product) == true){
+            this.props.setBagCount(this.props.bagCount + 1)
+        }
+    }
 
     render(){
         return(
@@ -20,7 +24,7 @@ class ProductCards extends Component{
                                     <div className = "item-price">{product.name}</div>
                                     <div className = "item-price">{'$' + product.price + ' CAD'}</div>
                                     <div className = "add-to-bag">
-                                        <div className = "text-center" onClick = {()=> BagContents.addToList(product)}>Add to Bag</div>
+                                        <div className = "text-center" onClick = {()=> this.addtoBag(product)}>Add to Bag</div>
                                     </div>
                                 </div>
 

@@ -13,9 +13,13 @@ class BagCard extends Component{
     itemCounter = 0;
 
     changeQuantity(item, change){
+        //select item
         let selectedItem = this.state.itemsList.filter(listItem => listItem.name == item.name);
+        //unwrap item
         selectedItem = selectedItem[0];
+        //create temp list
         let tempList = this.state.itemsList;
+        //change quantity of selected item
         selectedItem.quantity += change;
         let itemIndex = 0
         if (selectedItem.quantity > 0){
@@ -31,11 +35,21 @@ class BagCard extends Component{
             //update globalBag
             globalBagContents.updateQuantity(selectedItem.quantity, itemIndex);
         } else {
+            let i =0;
+            while (i<tempList.length){
+                if (tempList[i].name == selectedItem.name){
+                    itemIndex = i;
+                    break
+                }
+                i++;
+            }
             //remove item from tempList 
             tempList = this.removeItem(item);
             //remove item from globalBag
             globalBagContents.removeFromList(itemIndex);
         }
+        //update header
+        this.props.setBagCount(this.props.bagCount + change);
         //update this state
         this.setState({
             itemsList: tempList,
