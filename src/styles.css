@@ -53,7 +53,7 @@
 }
 
 .bag-logo:hover{
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
     -webkit-transform: scale(1.20);
             transform: scale(1.20);
 }
@@ -147,7 +147,7 @@
 }
 
 .category-card:hover{
-    transition-duration: 0.3s;
+    transition-duration: 0.1s;
     -webkit-transform: scale(1.10);
             transform: scale(1.10);
 }
@@ -234,7 +234,7 @@
 }
 
 .item-card:hover{
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
 }
