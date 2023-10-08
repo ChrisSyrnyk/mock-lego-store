@@ -1,8 +1,15 @@
 {
   "files": {
-    "main.css": "/mock-lego-store/static/css/main.a47d6d95.css",
-    "main.js": "/mock-lego-store/static/js/main.62303c5b.js",
+    "main.css": "/mock-lego-store/static/css/main.f42159ee.css",
+    "main.js": "/mock-lego-store/static/js/main.f58afb31.js",
     "static/media/purple-bricks.jpeg": "/mock-lego-store/static/media/purple-bricks.a8e6fc2aba7db0456336.jpeg",
+    "static/media/GringottsWizardingBank.png": "/mock-lego-store/static/media/GringottsWizardingBank.31cb6b3ccd2c17789c51.png",
+    "static/media/HogsmeadVillageVisit.png": "/mock-lego-store/static/media/HogsmeadVillageVisit.2c67a7f2bf566fb7e356.png",
+    "static/media/HogwartsCastleandGrounds.png": "/mock-lego-store/static/media/HogwartsCastleandGrounds.f592eb901b0455f033c3.png",
+    "static/media/TheBattleofHogwarts.png": "/mock-lego-store/static/media/TheBattleofHogwarts.0f9df3d3bf55bf26012d.png",
+    "static/media/HogwartsExpress.png": "/mock-lego-store/static/media/HogwartsExpress.1c549983c11e4e850436.png",
+    "static/media/TheShriekingShack.png": "/mock-lego-store/static/media/TheShriekingShack.17f8c265f11a168e1bf4.png",
+    "static/media/Hedwig.png": "/mock-lego-store/static/media/Hedwig.51426c5154cf6ba6407c.png",
     "static/media/EiffelTower.jpeg": "/mock-lego-store/static/media/EiffelTower.527e72be61243fab381c.jpeg",
     "static/media/ATAT.jpeg": "/mock-lego-store/static/media/ATAT.79b6465d83cbaeaf0cc0.jpeg",
     "static/media/App-ControlledCatD11Bulldozer.jpeg": "/mock-lego-store/static/media/App-ControlledCatD11Bulldozer.7b1aac56d9df68c71623.jpeg",
@@ -23,12 +30,14 @@
     "static/media/BugattiChiron.jpeg": "/mock-lego-store/static/media/BugattiChiron.38c2e0fac818105c4ac1.jpeg",
     "static/media/The-Mandalorian-Helmet.jpeg": "/mock-lego-store/static/media/The-Mandalorian-Helmet.f0a33606ed1dded150b3.jpeg",
     "static/media/Republic-Gunship.jpeg": "/mock-lego-store/static/media/Republic-Gunship.b31ab36530cbb95ea295.jpeg",
+    "static/media/HogwartsCastle.jpeg": "/mock-lego-store/static/media/HogwartsCastle.a9c8a08984e351b372c1.jpeg",
     "static/media/NewYorkCity.jpeg": "/mock-lego-store/static/media/NewYorkCity.24dfc4a370797e1bae3a.jpeg",
     "static/media/London.jpeg": "/mock-lego-store/static/media/London.dba72820b701ad350ee0.jpeg",
     "static/media/TajMahal.jpeg": "/mock-lego-store/static/media/TajMahal.6acb857e720e96c6a199.jpeg",
     "static/media/BD-1.jpeg": "/mock-lego-store/static/media/BD-1.04695473f1b0aff25519.jpeg",
     "static/media/Hoth-AT-ST.jpeg": "/mock-lego-store/static/media/Hoth-AT-ST.d135cfbca0234177f3d1.jpeg",
     "static/media/AirbusH175RescueHelicopter.jpeg": "/mock-lego-store/static/media/AirbusH175RescueHelicopter.bd1a72df7b3c0bcbed6e.jpeg",
+    "static/media/DiagonAlley.jpeg": "/mock-lego-store/static/media/DiagonAlley.f23511bdb48d86672b37.jpeg",
     "static/media/RacePlane.jpeg": "/mock-lego-store/static/media/RacePlane.a630b97f85c5297f1051.jpeg",
     "static/media/The-Mandalorians-N-1-Starfighter.jpeg": "/mock-lego-store/static/media/The-Mandalorians-N-1-Starfighter.7065d0b9c7395a52da61.jpeg",
     "static/media/GreatPyramidofGiza.jpeg": "/mock-lego-store/static/media/GreatPyramidofGiza.21f250d00f1f8eac81aa.jpeg",
@@ -45,11 +54,11 @@
     "static/media/plus-symbol.png": "/mock-lego-store/static/media/plus-symbol.009d2f81f677c22651e6.png",
     "static/media/minus-symbol.png": "/mock-lego-store/static/media/minus-symbol.de353dba32dc1fe036ee.png",
     "index.html": "/mock-lego-store/index.html",
-    "main.a47d6d95.css.map": "/mock-lego-store/static/css/main.a47d6d95.css.map",
-    "main.62303c5b.js.map": "/mock-lego-store/static/js/main.62303c5b.js.map"
+    "main.f42159ee.css.map": "/mock-lego-store/static/css/main.f42159ee.css.map",
+    "main.f58afb31.js.map": "/mock-lego-store/static/js/main.f58afb31.js.map"
   },
   "entrypoints": [
-    "static/css/main.a47d6d95.css",
-    "static/js/main.62303c5b.js"
+    "static/css/main.f42159ee.css",
+    "static/js/main.f58afb31.js"
   ]
 }
