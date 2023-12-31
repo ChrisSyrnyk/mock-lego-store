@@ -4,6 +4,8 @@ Created to show case the use of page routing in React using react-router-dom. Th
 
 [View Project](https://chrissyrnyk.github.io/mock-lego-store/)
 
+![DisplayPhoto](https://github.com/ChrisSyrnyk/mock-lego-store/blob/main/src/img/mock-lego-display.png)
+
 # Goals
 - Implement react-router-dom
 - Utilize Component based architecture
